@@ -2,3 +2,4 @@ secrets.txt
 secrets.json
 tempCodeRunnerFile.py
 .env
+__pycache__
