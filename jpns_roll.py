@@ -39,6 +39,8 @@ async def on_ready():
         print(f"synced {len(synced)} command(s)")
     except Exception as e:
         print(e)
+    #not much here, just thought it was cute to add 
+    await client.change_presence(activity= discord.Game('with Servbots'),status=discord.Status.online)       
     
     print(f"ready to ROLL")
 
