@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 #Main control here only, any and all other functions must be made in anothe file and imported 
 if __name__ == "__main__":
 
-    intents = discord.Intents.default()
+    intents = discord.Intents.all()
     intents.message_content = True
     description = ""
     #bot's command prefix 
@@ -61,4 +61,12 @@ if __name__ == "__main__":
             message_embed.set_image(url="attachment://wheres_that_feature.png")
             await interaction.response.send_message(file=not_done_yet_file,embed=message_embed,ephemeral= True)
 
+
+        
+        
+            
+            
+
     client.run(TOKEN)
+
+    
